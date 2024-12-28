@@ -1,0 +1,322 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.Arun{
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background: fixed;
+    background-color: #000;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 8;
+    padding-right: 8%;
+    background-color: #000;
+}
+.logo{
+    color: rgb(248, 248, 248);
+    font-size: 35px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+span{
+    color: #f90044;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;  
+    margin-bottom: 10px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: #f90044;
+    transition: 0.4s;
+}
+.btn{
+    background-color:#f90044;
+    color:white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    border: #000 1px;
+}
+h1{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+    border: 1px;
+
+}
+h3{
+    color: white;
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+h4{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+.news form {
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.news form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 10x solid #f90044;
+    outline: none;
+    border-radius: 30px;
+}
+.news form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: 4px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #f90044;
+    color: white;
+    box-shadow: 0px 0px 0px 5px #000, 0px 0px 15px #858585;
+    top:6px;
+    right: 5px;
+}
+
+.about img{
+    height: auto;
+    width: 420px;
+    position: relative;
+
+}
+.about{
+    width: 100%;
+    padding: 100px opx;
+    background-color: #191919;
+}
+.aboutme{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.aboutme h2{
+    color: white;
+    font-size: 65px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.aboutme h5{
+    color: white;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+
+}
+.aboutme p{
+    color: #fcfcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: medium;
+    margin-bottom: 40px;
+}
+.aboutme .button{
+    background-color: #f90044;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight:bold ;
+    padding: 11px 28px;
+    border-radius: 28px;
+    transition: 0.4s;
+}
+.aboutme .button:hover{
+    background-color: transparent;
+    border: 2px solid ;
+    cursor: pointer;
+}
+.work{
+    background:#101010;
+    width: 100%;
+    padding:100px 0px;
+}
+.title h2{
+    color: white;
+    width: 1130px;
+    font-size: 70px;
+    margin: 30px auto ;
+    text-align: center;
+}
+.title p{
+    color: #fcfcfc;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    margin:40px;
+}
+.box{
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    padding: 30px;
+    margin: 10px;
+}
+
+.cards{
+    height:365px ;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    position: relative;
+    margin: 15px;
+    text-align: center;
+    overflow: hidden;
+}
+.cards i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #f90044;
+}
+h5{
+    color: #fcfcfc;
+    font-size: 23px;
+    margin-bottom: 13px;
+}
+.par p{
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.par .button{
+    background-color: #f90044;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight:bold ;
+    padding: 11px 28px;
+    border-radius: 28px;
+    transition: 0.4s;
+}
+.cards .button:hover{
+    background-color: transparent;
+    border: 2px solid ;
+    cursor: pointer;
+}
+.contactme{
+    width: 100%;
+    height: 290px;
+    background: #191919;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.contactme p{
+    color: #fcfcfc;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.contactme .click{
+    background-color: #f90044;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight:bold ;
+    padding: 11px 28px;
+    border-radius: 28px;
+    transition: 0.4s;
+}
+.contactme .click:hover{
+    background-color: transparent;
+    border: 2px solid ;
+    cursor: pointer;
+}
+footer{
+    padding-top: 30px;
+    position: relative;
+    width: 100%;
+    height:300px;
+    background:#101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer p:nth-child(1){
+    font-size: 30px;
+    color: #fcfcfc;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+footer p:nth-child(2){
+    color: #fcfcfc;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
+.social{
+    display: flex;
+}
+.social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: whitesmoke;
+    border-radius: 50%;
+    margin: 22px 10px;
+}
+.social a:hover{
+    background-color: transparent;
+    border: 2px solid ;
+    cursor: pointer;
+}
+.end{
+    position: relative;
+    font-size: 12px;
+    color: #f90044;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
